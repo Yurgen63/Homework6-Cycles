@@ -16,21 +16,21 @@ public class Main {
 
     public static void task1() {
         System.out.println("Задача 1");
-        for (int i = 1; i < 11; i++) {
+        for (int i = 1; i <= 10; i++) {
             System.out.println("Целое число " + i);
         }
     }
 
     public static void task2() {
         System.out.println("Задача 2");
-        for (int i = 10; i > 0; i--) {
+        for (int i = 10; i >= 1; i--) {
             System.out.println("Обратный отсчет " + i);
         }
     }
 
     public static void task3() {
         System.out.println("Задача 3");
-        for (int i = 0; i < 18; i = i + 2) {
+        for (int i = 0; i <= 17; i = i + 2) {
             System.out.println("Четное число " + i);
         }
     }
@@ -83,10 +83,11 @@ public class Main {
             System.out.println("Месяц " + i + " ,сумма накоплений равна " + total + " рублей");
         }
     }
-    public static void task10(){
+
+    public static void task10() {
         System.out.println("Задача 10");
         int num = 2;
-        for (int i = 2; i<=10; i++){
+        for (int i = 2; i <= 10; i++) {
             System.out.println(num + "*" + i + "=" + i * num);
         }
     }
